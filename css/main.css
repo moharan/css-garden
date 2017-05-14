@@ -1,1 +1,88 @@
 /* Agrega aquí tus estilos*/
+h1, h2, h3 {
+	font-family: 'Lobster Two', cursive;
+}
+h1 {
+	color: white;
+	text-align: center;
+	font-size: 70px;
+}
+h2 {
+	color: #FE9A2E;
+	text-align: center;
+}
+h3 {
+	color: #f78181;
+}
+a {
+	color: #B45F04;
+	text-decoration: none;
+}
+footer {
+	clear: both;
+	margin: 0 auto;
+	text-align: center;
+	padding: 5px;
+	border: 1px dashed #61210B;
+}
+.page-wrapper{
+	width: 70%;
+	margin: 0 auto;
+	border: 1px dashed white;
+	padding-right: 10px;
+	padding-left: 10px;
+	background-image: url(../images/fondo.png);
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+.intro {
+	padding-top: 240px;
+}
+.summary{
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 5px;
+	border: 1px dashed #61210B;
+}
+.preamble, .explanation, .participation, .benefits, .requirements {
+	width: 45%;
+	background-color: white;
+	padding: 10px;
+	margin: 10px;
+	float: left;
+	border-radius:10px; 
+    -moz-border-radius:10px; /* Firefox */ 
+    -webkit-border-radius:10px; /* Safari y Chrome */
+}
+@media (max-width: 1200px) {
+    .preamble, .explanation, .participation, .benefits, .requirements {
+	width: 94%;
+	background-color: #F6E3CE;
+	padding: 10px;
+	margin: 10px;
+	float: left;
+	border-radius:10px; 
+    -moz-border-radius:10px; /* Firefox */ 
+    -webkit-border-radius:10px; /* Safari y Chrome */
+	}
+}
+.design-selection {
+	position: absolute;
+	top: 0px;
+	font-size: 10px;
+}
+.design-archives {
+	position: absolute;
+	top: 140px;
+	font-size: 10px;
+}
+.zen-resources {
+	position: absolute;
+	top: 200px;
+	font-size: 10px;
+}
+#css-zen-garden {
+	color: #61210B;
+	background-color: #F5D0A9;
+}
